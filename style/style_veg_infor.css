@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav */
+nav {    
+    background-color: #6aa68b;
+     color: #ffffff;
+     margin: 25px 5%;
+     padding: 10px 5px ;
+     border-radius: 26px;
+     box-shadow: 17px 17px 31px #d3d3d3, -17px -17px 31px #ededed;
+ }
+ .logo {
+     font-family: 'Anton', sans-serif;
+     font-size: 15px;
+     color: #ffffff;
+     margin-right: 60%;
+ }
+ .logo a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0;
+ }
+ 
+ .logo img{
+     border-radius: 43px;
+     margin: 0 5px;
+ }
+ .nav-link {
+     color: #ffffff;
+ 
+ }
+ .nav-link  i{
+     margin-right: 5px;
+     font-size: 20px;
+     vertical-align: middle;
+ }
+ .menu__item a:link{
+     color: #ffffff;
+     border-radius: 43px;
+     padding: 1rem;
+ }
+ .menu__item  a:visited{
+     color: #ffffff;
+ }
+ 
+ .menu__item  a:hover{
+     color: #6aa68b;
+     background-color: #ffffff;
+     border-radius: 43px;
+     padding: 1rem;
+     font-weight: bold;
+ }
+ .menu__item  a:active{
+     color: #ffffff;
+     font-weight: bold;
+ }
+.icon{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.icon img{
+    border-radius: 43px;
+    margin: 0 5px;  
+}
+/* content */
+.content{
+    margin-top: 30px;
+}
+.in input{
+    display: block;
+}
+.in{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    padding: 10px;
+    width: 50%;
+    height: 320px;
+    background: #6aa68b;
+    border-radius: 25px;
+}
+.in1{
+    margin-top: 10px;
+    margin-left: 15%;
+    float: left;
+    width: 40%;
+}
+.in2{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;   
+    width: 40%;
+}
+.in3{
+    text-align: center;
+    clear: both;
+}
+.veg a{
+    width: 20%;
+    margin: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #000;
+    background: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.veg a:hover{
+    background: #f07167;
+    color: #000;
+}
+::placeholder{
+    color: #fff;
+}
+input{
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    background: transparent;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 8px;
+}
+.titel h1{
+    text-align: center;
+}
+.titel img{
+    position: absolute;
+    top: 18%;
+    left: 42%;
+    transform: translate(-50%, -20%);
+    border-radius: 50%;
+    width: 5%;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+nav {    
+    background-color: #6aa68b;
+     color: #ffffff;
+     margin: 25px 10%;
+     padding: 20px 5px ;
+     border-radius: 26px;
+     box-shadow: 17px 17px 31px #d3d3d3, -17px -17px 31px #ededed;
+ }
+ .logo {
+     font-family: 'Anton', sans-serif;
+     font-size: 15px;
+     color: #ffffff;
+     margin-right: 50%;
+ }
+ .logo  a{
+     text-decoration: none;
+     color: #ffffff;
+ }
+ 
+ .logo img{
+     border-radius: 43px;
+     margin: 0 5px;
+ }
+ .nav-link {
+     color: #ffffff;
+ 
+ }
+ .nav-link  i{
+     margin-right: 5px;
+     font-size: 20px;
+     vertical-align: middle;
+ }
+ .menu__item a:link{
+     color: #ffffff;
+     border-radius: 43px;
+     padding: 1rem;
+ }
+ .menu__item  a:visited{
+     color: #ffffff;
+ }
+ 
+ .menu__item  a:hover{
+     color: #6aa68b;
+     background-color: #ffffff;
+     border-radius: 43px;
+     padding: 1rem;
+     font-weight: bold;
+ }
+ .menu__item  a:active{
+     color: #ffffff;
+     font-weight: bold;
+ }
+ /* content */
+ .content{
+    background-color: #6aa68b ;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 35px;
+    padding: 30px;
+    margin-top: 100px;
+}
+.header{
+    border-bottom:  2px solid #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.text_content{
+    font-size: 15px;
+}
+.content input{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.content btn{
+    margin-top: 10px;
+    float: right;
+}
+.submit{
+   text-align: right;
+   margin-top: 20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    width: 30%;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    width: 30%;
+}
+.footer{
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: 5px;
+
+}

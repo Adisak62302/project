@@ -1,0 +1,16 @@
+
+.header {
+  margin: 50px 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.crop-alert img{
+  border-radius: 50%;
+}
+
+
+.crop-alert{
+  width: 100vh;
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-left: 300px;
+    background-color: #ccc ;
+}
+.header{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: #51979a;
+    font-weight: bolder;
+}
+.table {
+    background-color: #6AA5A9 !important;
+    width: 70% !important;
+    border-radius: 30px;
+    align-items: center;
+    margin: 20px 15%;
+    color: #ffffff;
+    padding: 50px 50px !important;
+}

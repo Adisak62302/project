@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://t1.blockdit.com/photos/2020/04/5ea15cdfb726161095e6450d.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/* nav */
+nav {    
+    background-color: #6aa68b;
+     color: #ffffff;
+     margin: 25px 5%;
+     padding: 10px 5px ;
+     border-radius: 26px;
+     box-shadow: 17px 17px 31px #d3d3d3, -17px -17px 31px #ededed;
+ }
+ .logo {
+     font-family: 'Anton', sans-serif;
+     font-size: 15px;
+     color: #ffffff;
+     margin-right: 60%;
+ }
+ 
+ .logo img{
+     border-radius: 43px;
+     margin: 0 5px;
+ }
+ .nav-link {
+     color: #ffffff;
+ 
+ }
+ .nav-link  i{
+     margin-right: 5px;
+     font-size: 20px;
+     vertical-align: middle;
+ }
+ .menu__item a:link{
+     color: #ffffff;
+     border-radius: 43px;
+     padding: 1rem;
+ }
+ .menu__item  a:visited{
+     color: #ffffff;
+ }
+ 
+ .menu__item  a:hover{
+     color: #6aa68b;
+     background-color: #ffffff;
+     border-radius: 43px;
+     padding: 1rem;
+     font-weight: bold;
+ }
+ .menu__item  a:active{
+     color: #ffffff;
+     font-weight: bold;
+ }
+
+ /* from */
+ .content {
+    /* padding: 20px 0 ; */
+    background-color: #6aa68b;
+    margin: 10px 20% !important;
+    border-radius: 35px;
+}
+
+.icon{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.icon img{
+    border-radius: 43px;
+    margin: 0 5px;  
+}
+.form-control-plaintext{
+    background-color: #ffffff;
+}
+label{
+    text-align: right;
+}
+.form-select{
+    width: 30%;
+}
+.form-control-plaintext{
+    width: 30%; 
+    border-radius: 5px;
+}
+.btn-secondary {
+    border-radius: 10px;
+}
+.btn-primary {
+    border-radius: 10px;
+}
+.form-control-plaintext{
+    text-align: center;
+}
+
+.content-form{
+    margin: 0 0 0 30%;
+}

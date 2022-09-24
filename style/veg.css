@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 5%;
+}
+.card {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 500px;
+}
+.card .btn{
+    font-size: 24px;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+label{
+    font-size: 17px;
+}
+

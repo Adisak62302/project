@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.titel_icon {
+    margin-top: 50px ;
+    text-align: center;
+}
+.planing {
+    margin: 0 10%;
+    text-align: center;
+}
+.content {
+    position: relative;
+    margin:60px 21%;
+}
+.form-select {
+    width: 150px;
+}

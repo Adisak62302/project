@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin-top: 20px;
+    /* border: red 1px solid; */
+}
+.card{
+    padding: 5px;
+    margin-top: 20px;
+}
