@@ -16,9 +16,13 @@ if (isset($_SESSION['type_id' != 1])) {
   header('Location: login.php');
 }
 // tb banner query
-$count_n = 1;
-$data = "SELECT users.*, user_type.type FROM users JOIN user_type ON (users.type_id = user_type.type_id)";
+$emp_data = $_POST["emp_data"];
+
+$data = "SELECT  users.*, user_type.type FROM users JOIN user_type ON (users.type_id = user_type.type_id) WHERE username LIKE '%$emp_data%' OR `user_type`.`type` LIKE '%$emp_data%' ";
+
 $result2 = mysqli_query($conn, $data);
+$count = mysqli_num_rows($result2);
+$count_n = 1;
 ?>
 
 <body>
@@ -32,6 +36,7 @@ $result2 = mysqli_query($conn, $data);
       <button class="btn btn-outline-success" type="submit">ค้นหา</button>
     </form>
 
+    <?php if ($count >0) {?>
 
     <div class="row bg-white m-4 p-4 shadow-sm rounded">
       <table class="table">
@@ -44,6 +49,7 @@ $result2 = mysqli_query($conn, $data);
             <th scope="col">เบอร์โทร</th>
             <th scope="col">ไอดีไลน์</th>
             <th scope="col">จัดการ</th>
+            <th scope="col">การใช้งาน</th>
           </tr>
         </thead>
         <tbody>
@@ -64,45 +70,14 @@ $result2 = mysqli_query($conn, $data);
     </div>
   </div>
 
+
+  <?php } else { ?>
+    <div class="alert alert-danger">
+    <b>ไม่พบข้อมูล</b>
+    </div>
+<?php  } ?>
+
+
 </body>
-
-
-<script>
-  const container = document.querySelector(".container"),
-      pwShowHide = document.querySelectorAll(".showHidePw"),
-      pwFields = document.querySelectorAll(".password"),
-      signUp = document.querySelector(".signup-link"),
-      login = document.querySelector(".login-link");
-
-    //   js code to show/hide password and change icon
-    pwShowHide.forEach(eyeIcon =>{
-        eyeIcon.addEventListener("click", ()=>{
-            pwFields.forEach(pwField =>{
-                if(pwField.type ==="password"){
-                    pwField.type = "text";
-
-                    pwShowHide.forEach(icon =>{
-                        icon.classList.replace("uil-eye-slash", "uil-eye");
-                    })
-                }else{
-                    pwField.type = "password";
-
-                    pwShowHide.forEach(icon =>{
-                        icon.classList.replace("uil-eye", "uil-eye-slash");
-                    })
-                }
-            }) 
-        })
-    })
-
-    // js code to appear signup and login form
-    signUp.addEventListener("click", ( )=>{
-        container.classList.add("active");
-    });
-    login.addEventListener("click", ( )=>{
-        container.classList.remove("active");
-    });
-
-</script>
 
 </html>

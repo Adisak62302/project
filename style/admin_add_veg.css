@@ -1,0 +1,28 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(242, 242, 242) ;
+}
+
+.header{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    color: #000 ;
+    font-weight: bolder;
+} 
+h5 {
+    margin: 20px 0;
+}
+.container{
+   
+    margin-top: 20px ;
+    margin-bottom: 70px;
+}
+.card{
+    padding: 5px;
+    margin-top: 20px;
+}
+

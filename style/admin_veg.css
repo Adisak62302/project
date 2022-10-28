@@ -1,16 +1,15 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    font-family:'Mitr', sans-serif  ;
 }
-body {
+body{
     background-color: rgb(242, 242, 242) ;
 }
-.header {
+.header{
     font-size: 30px;
     text-align: center;
-    margin-top: 100px;
-    color: #000;
+    margin-top: 50px;
+    color: #51979a;
     font-weight: bolder;
 } 
 .table {

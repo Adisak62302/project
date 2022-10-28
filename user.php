@@ -24,7 +24,7 @@
         <a type="button" class="btn btn-primary" style="width: 150px;">แก้ไขข้อมูลส่วนตัว</a></br><br>
         <a type="button" class="btn btn-primary" style="width: 150px;"> เปลี่ยนรหัสผ่าน</a></br><br>
         <a type="button" class="btn btn-primary" style="width: 150px;"> เปลี่ยนไอดีไลน์</a></br><br>
-        <a type="button" class="btn btn-primary" href="login.php" style="width: 150px;">ออกจากระบบ</a>
+        <a type="button" class="btn btn-primary" href="logout.php" style="width: 150px;">ออกจากระบบ</a>
     </div>
 
 

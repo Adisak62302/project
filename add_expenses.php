@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/add_expenses.css">
     <title>add expenses</title>
-
 </head>
 
 <body>

@@ -24,9 +24,9 @@ $row = mysqli_fetch_array($result);
 ?>
 
 <body>
-
+<div class="title">จัดการหน้าหลัก</div>
 <div class="container">
-        <div class="title">จัดการหน้าหลัก</div>
+<div class="row bg-white m-4 p-4 shadow-sm rounded">
         <div class="content">
             <form id="edit" method="POST" enctype="multipart/form-data" >
                 <div class="user-details">
@@ -48,12 +48,14 @@ $row = mysqli_fetch_array($result);
                     </div>
                 </div>
                
-                <div class="button">
-                    <input type="submit" value="บันทึก" name="submit">
-                </div>
+                <div class="col text-center mt-4" >
+                 <button type="reset" class="btn btn-secondary px-5 m-1" name="seve">รีเซ็ต</button>
+                 <button type="submit" class="btn btn-success px-5 m-1" name="seve">บันทึก</button>
+            </div>
             </form>
         </div>
     </div>
+</div>
 
 
     <?php
